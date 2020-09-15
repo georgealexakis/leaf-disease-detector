@@ -6,9 +6,7 @@ Classifies leaves in 2 classes (healthy and rotten).
 
 Followed Steps:
 
-* Image Filtering uses NLM denoising filter with different
-approaches.
-* The filtered image is transformed to HSV (improve the
+* Image is transformed to HSV (improve the
 RGB model).
 * Image segmentation to identify rotten parts of the leaf.
 * Feature extraction is performed for every sample that is
